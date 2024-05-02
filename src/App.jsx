@@ -7,10 +7,13 @@ import Marquees from './Components/Marquees'
 import Cards from './Components/Cards'
 import Footer from './Components/Footer'
 
+import LocomotiveScroll from 'locomotive-scroll';
+
 
 function App() {
+  const locomotiveScroll = new LocomotiveScroll();
   return (
-    <div className='w-full h-full bg-black  font-["satoshi"] text-white'>
+    <div className='w-full h-full bg-black  font-["Gilroy-Regular"] text-white'>
     <Navbar/>
     <Work/>
     <Stripes/>
